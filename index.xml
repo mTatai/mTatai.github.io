@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jul 2016 17:39:45 +0200</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first post</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/first-post/</link>
+      <pubDate>Wed, 20 Jul 2016 17:39:45 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/first-post/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This&lt;/em&gt; is the first post&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/JasperReports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/JasperReports/</guid>
+      <description>&lt;p&gt;#Jasper Reports&lt;/p&gt;
+
+&lt;p&gt;##Number format for excel sheets
+TextField -&amp;gt; Advanced -&amp;gt; Properties -&amp;gt; Pattern
+&lt;code&gt;#,##0&lt;/code&gt; vagy &lt;code&gt;#,##0.00&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;##Formatting part of a text field
+    &lt;style isBold=\&#34;true\&#34; pdfFontName=\&#34;Helvetica-Bold\&#34;&gt;&amp;rdquo; + $F{returndate} + &lt;style&gt;&lt;/p&gt;
+
+&lt;p&gt;textfield setting: &lt;code&gt;markup:styled&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;##Encoding problems in PDF
+textfield setting -&amp;gt; advanced -&amp;gt; pdf encoding: Cp1250&lt;/p&gt;
+
+&lt;p&gt;##Add report property
+Select report -&amp;gt; Advanced -&amp;gt; Properties -&amp;gt; &amp;hellip;
+Add, e.g.: &lt;code&gt;net.sf.jasperreports.print.keep.full.text = true&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/Java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/Java/</guid>
+      <description>&lt;p&gt;#Java&lt;/p&gt;
+
+&lt;p&gt;##Command line tools
+- &lt;code&gt;jps -l&lt;/code&gt; - lists JVM processes
+- &lt;code&gt;jcmd &amp;lt;PID&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt; send diagnostic commands to a JVM
+    - &lt;code&gt;VM.flags&lt;/code&gt;: list extra VM flags
+    - &lt;code&gt;VM.command_line&lt;/code&gt;: arguments that the VM started with&lt;br /&gt;
+- &lt;code&gt;jstat&lt;/code&gt; - monitor VM statistics
+- &lt;code&gt;jmap -dump:file=&amp;lt;FILE&amp;gt; &amp;lt;PID&amp;gt;&lt;/code&gt; - dump heap statistics&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/Linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/Linux/</guid>
+      <description>&lt;p&gt;#Linux&lt;/p&gt;
+
+&lt;p&gt;##SSH
+- &lt;code&gt;ssh -C -D 12345 tm1032@ural2.hszk.bme.hu&lt;/code&gt;
+    - &lt;code&gt;-C&lt;/code&gt;: compress
+    - &lt;code&gt;-D&lt;/code&gt;: creates dynamic proxy&lt;/p&gt;
+
+&lt;p&gt;##GRUB
+After installing Ubuntu, GRUB didn&amp;rsquo;t show, just a puprle screen. Booted a live disk, and edited &lt;code&gt;/etc/default/grub&lt;/code&gt;. Set &lt;code&gt;GRUB_GFXMODE=640x480&lt;/code&gt; and then &lt;code&gt;sudo update-grub&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;##Locale
+&lt;a href=&#34;http://www.dedoimedo.com/computers/ubuntu-family-locale.html&#34;&gt;http://www.dedoimedo.com/computers/ubuntu-family-locale.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##X
+- Adding new resolutions: &lt;a href=&#34;http://sammart.in/2012/05/29/enabling-resolutions-in-ubuntu-12-04-lubuntu-12-04/&#34;&gt;http://sammart.in/2012/05/29/enabling-resolutions-in-ubuntu-12-04-lubuntu-12-04/&lt;/a&gt;
+- Mouse gets stuck between monitors: &lt;a href=&#34;http://askubuntu.com/questions/109338/how-do-i-disable-mouse-magnet-on-middle-edge-with-multi-monitors&#34;&gt;http://askubuntu.com/questions/109338/how-do-i-disable-mouse-magnet-on-middle-edge-with-multi-monitors&lt;/a&gt;
+- Load indicator: &lt;a href=&#34;http://www.webupd8.org/2011/05/network-memory-and-cpu-usage-indicator.html#more&#34;&gt;http://www.webupd8.org/2011/05/network-memory-and-cpu-usage-indicator.html#more&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##Curl
+- Sending host header: &lt;code&gt;curl --verbose --header &#39;Host: www.example.com&#39; &#39;http://10.1.1.36:8000/the_url_to_test&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;##UFW
+- &lt;code&gt;ufw allow from 10.29.1.0/24 to any port 8000:8100 proto tcp&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/Meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/Meta/</guid>
+      <description>&lt;p&gt;#Editing this repo&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&#34;https://github.com/SublimeText-Markdown/MarkdownEditing&#34;&gt;MarkdownEditing&lt;/a&gt; to edit this repo using markdown files.&lt;/p&gt;
+
+&lt;p&gt;To get the dark theme to work I downloaded the theme file from the repo and put it into &lt;code&gt;~/.config/sublime-text-3/MarkdownEditor-Dark.tmTheme&lt;/code&gt;. Then I set up the settings file as described in the MarkdownEditor repo.&lt;/p&gt;
+
+&lt;p&gt;After installing I set up Sublime Text using View-&amp;gt;Syntax-&amp;gt;Open all with current extension as&amp;hellip;/MarkdownEditor/Markdown GFM&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/Mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/Mysql/</guid>
+      <description>&lt;p&gt;#Foreign key error
+While adding a foreign key, I&amp;rsquo;ve got a cryptic &amp;lsquo;alter table failed&amp;rsquo; error. All the data types matched, the reason was that the collation of the two varchar columns wasn&amp;rsquo;t the same.&lt;/p&gt;
+
+&lt;p&gt;#Configuring mysqld
+* When configuring use &lt;code&gt;mysqld --help --verbose&lt;/code&gt; to list options that the server would start with
+* By default, mysql doesn&amp;rsquo;t allow root to connect with password. To allow this, enter a mysql shell with &lt;code&gt;sudo mysql -u root&lt;/code&gt; and issue the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;USE mysql;
+UPDATE user SET authentication_string = PASSWORD(&#39;&#39;), password_expired = &#39;N&#39;, plugin = &#39;mysql_native_password&#39; WHERE user = &#39;root&#39;;
+FLUSH PRIVILEGES;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;*If somehow you lock yourself out with your root account, mysqld may be started up without authentication: &lt;code&gt;sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/README/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;mtatai-github-io&#34;&gt;mTatai.github.io&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/grails-exploration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/grails-exploration/</guid>
+      <description>&lt;p&gt;#Grails Exploration&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/braindump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/braindump/</guid>
+      <description>Hello world</description>
+    </item>
+    
+  </channel>
+</rss>
